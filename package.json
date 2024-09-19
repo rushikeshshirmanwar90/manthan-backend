@@ -1,38 +1,36 @@
 {
   "name": "manthan-backend",
-  "version": "0.1.0",
   "private": true,
+  "version": "0.1.0",
   "description": "A Strapi application",
-  "license": "MIT",
-  "author": {
-    "name": "A Strapi developer"
-  },
   "scripts": {
-    "build": "strapi build",
-    "deploy": "strapi deploy",
     "develop": "strapi develop",
     "start": "strapi start",
-    "strapi": "strapi"
+    "build": "strapi build",
+    "strapi": "strapi",
+    "deploy": "strapi deploy"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-cloud": "4.25.9",
-    "@strapi/plugin-i18n": "4.25.9",
-    "@strapi/plugin-users-permissions": "4.25.9",
     "@strapi/strapi": "4.25.9",
+    "@strapi/plugin-users-permissions": "4.25.9",
+    "@strapi/plugin-i18n": "4.25.9",
+    "@strapi/plugin-cloud": "4.25.9",
     "mysql": "2.18.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
     "styled-components": "5.3.3"
   },
-  "devDependencies": {
-    "ajv": "^8.17.1"
-  },
-  "engines": {
-    "node": ">=18.17.0 <20.0.0",
-    "npm": ">=6.0.0 <10.0.0"
+  "author": {
+    "name": "A Strapi developer"
   },
   "strapi": {
     "uuid": "4bc9dbd0-d250-4604-9bee-f49bcf364515"
-  }
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
 }
