@@ -18,17 +18,30 @@
     "ajv": "8.17.1"
   },
   "dependencies": {
+    "@ampproject/remapping": "^2.3.0",
+    "@babel/compat-data": "^7.25.4",
+    "@babel/core": "^7.25.2",
+    "@babel/helper-compilation-targets": "^7.25.2",
+    "@babel/helper-module-transforms": "^7.25.2",
+    "@babel/helper-simple-access": "^7.24.7",
+    "@babel/helper-validator-option": "^7.24.8",
+    "@babel/helpers": "^7.25.6",
     "@strapi/plugin-cloud": "4.25.9",
     "@strapi/plugin-i18n": "4.25.9",
     "@strapi/plugin-users-permissions": "4.25.9",
     "@strapi/strapi": "^4.24.5",
     "ajv": "^8.17.1",
+    "convert-source-map": "^2.0.0",
+    "gensync": "^1.0.0-beta.2",
     "json-schema-traverse": "^1.0.0",
+    "lru-cache": "^5.1.1",
     "mysql": "2.18.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
-    "styled-components": "5.3.3"
+    "semver": "^6.3.1",
+    "styled-components": "5.3.3",
+    "yallist": "^3.1.1"
   },
   "devDependencies": {
     "husky": "^9.1.6"
@@ -36,12 +49,8 @@
   "engines": {
     "node": ">=20.5.0",
     "npm": "^10.8.3"
-
   },
   "strapi": {
     "uuid": "4bc9dbd0-d250-4604-9bee-f49bcf364515"
   }
-
-
-
 }
