@@ -14,6 +14,9 @@
     "start": "strapi start",
     "strapi": "strapi"
   },
+  "resolutions": {
+    "ajv": "8.17.1"
+  },
   "dependencies": {
     "@strapi/plugin-cloud": "4.25.9",
     "@strapi/plugin-i18n": "4.25.9",
@@ -29,8 +32,8 @@
     "husky": "^9.1.6"
   },
   "engines": {
-    "node": "20.15.1",
-    "npm": "9.9.3"
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
   },
   "strapi": {
     "uuid": "4bc9dbd0-d250-4604-9bee-f49bcf364515"
