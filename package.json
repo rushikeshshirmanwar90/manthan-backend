@@ -10,12 +10,11 @@
     "strapi": "strapi",
     "deploy": "strapi deploy"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.25.9",
-    "@strapi/plugin-users-permissions": "4.25.9",
-    "@strapi/plugin-i18n": "4.25.9",
     "@strapi/plugin-cloud": "4.25.9",
+    "@strapi/plugin-i18n": "4.25.9",
+    "@strapi/plugin-users-permissions": "4.25.9",
+    "@strapi/strapi": "^4.24.5",
     "mysql": "2.18.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -29,8 +28,8 @@
     "uuid": "4bc9dbd0-d250-4604-9bee-f49bcf364515"
   },
   "engines": {
-    "node": ">=18.0.0 <21.0.0", 
-    "npm": ">=6.0.0 <10.0.0"     
+    "node": ">=18.0.0 <21.0.0",
+    "npm": ">=6.0.0 <10.0.0"
   },
   "license": "MIT"
 }
